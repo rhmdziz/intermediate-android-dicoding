@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    tools:context=".ui.AddStoryActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:title="@string/add_story"
+        android:titleTextColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="@color/white" />
+
+    <TextView
+        android:id="@+id/text_add_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:fontFamily="@font/urbanist_bold"
+        android:layout_marginTop="12dp"
+        android:text="@string/mau_cerita_apa"
+        android:textColor="@color/blue_dark"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+    <EditText
+        android:id="@+id/ed_add_description"
+        android:paddingHorizontal="8dp"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="12dp"
+        android:layout_width="0dp"
+        android:inputType="text"
+        android:textSize="18sp"
+        android:background="@color/blue_white"
+        android:backgroundTint="@color/blue_white"
+        android:layout_height="100dp"
+        app:layout_constraintTop_toBottomOf="@+id/text_add_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:autofillHints=""
+        tools:ignore="LabelFor" />
+
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@+id/progressIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+    <TextView
+        android:id="@+id/text_add_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:fontFamily="@font/urbanist_bold"
+        android:layout_marginTop="12dp"
+        android:text="@string/tambahin_gambar_dong"
+        android:textColor="@color/blue_dark"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ed_add_description" />
+
+    <ImageView
+        android:id="@+id/previewImageView"
+        android:layout_width="0dp"
+        android:layout_height="340dp"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_add_image"
+        app:srcCompat="@drawable/ic_place_holder"
+        android:contentDescription="@string/todo" />
+
+    <Button
+        android:id="@+id/cameraButton"
+        android:layout_marginTop="16dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/urbanist_medium"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/bg_edittext"
+        android:text="@string/kamera"
+        app:layout_constraintEnd_toStartOf="@id/galleryButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/previewImageView" />
+
+    <Button
+        android:id="@+id/galleryButton"
+        android:layout_width="0dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_edittext"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/urbanist_medium"
+        android:layout_marginEnd="32dp"
+        android:scaleType="fitCenter"
+        android:text="@string/gallery"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/cameraButton"
+        app:layout_constraintTop_toBottomOf="@id/previewImageView" />
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="0dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_edittext"
+        android:fontFamily="@font/urbanist_medium"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:scaleType="fitCenter"
+        android:text="@string/add_story"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cameraButton" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

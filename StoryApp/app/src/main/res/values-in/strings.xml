@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_dulu_gasi">Login dulu gasi</string>
+    <string name="logo_aplikasi">Logo Aplikasi</string>
+    <string name="opsi_register">Tidak punya akun? Daftar dulu di sini</string>
+    <string name="intro_register">Harap isi data dulu ya</string>
+    <string name="name">Nama</string>
+    <string name="opsi_login">Punya akun? Login aja di sini</string>
+    <string name="register">Daftar</string>
+    <string name="intro">Selamat datang di StoryApp</string>
+    <string name="log_out">Keluar</string>
+    <string name="bahasa">Bahasa</string>
+    <string name="gambar_item">Item Image</string>
+    <string name="item_name">Item Name</string>
+    <string name="item_description">Item Description</string>
+    <string name="add_story">Tambahkan cerita</string>
+    <string name="gallery">Galeri</string>
+    <string name="kamera">Kamera</string>
+    <string name="mau_cerita_apa">Mau cerita apa mniezz?</string>
+    <string name="tambahin_gambar_dong">Tambahin gambar dong</string>
+    <string name="email_error">Harap isi email yang benar</string>
+    <string name="password_error">Password minimal 8 karakter</string>
+    <string name="empty_image_warning">Tolong tambahkan gambar</string>
+    <string name="error_connection">Periksa koneksi internet Anda!</string>
+    <string name="intro_login">Sudah siap untuk berbagi cerita?</string>
+    <string name="empty_story_warning">Harap tambahkan cerita</string>
+    <string name="no_data">Tidak ada data</string>
+    <string name="required_data">Email and password dibutuhkan</string>
+    <string name="logout">Berhasil keluar</string>
+    <string name="todo">TODO</string>
+</resources>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name" translatable="false">StoryApp</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="login_dulu_gasi">Please login first!</string>
+    <string name="logo_aplikasi">Logo Application</string>
+    <string name="opsi_register">Don\'t have an account? Register here</string>
+    <string name="intro_register">Complete your data first!</string>
+    <string name="name">Name</string>
+    <string name="opsi_login">Have an account? Login aja di sini</string>
+    <string name="register">Register</string>
+    <string name="intro">Welcome to StoryApp</string>
+    <string name="log_out">Log Out</string>
+    <string name="bahasa">Language</string>
+    <string name="gambar_item">Item Image</string>
+    <string name="item_name">Item Name</string>
+    <string name="item_description">Item Description</string>
+    <string name="add_story">Add story</string>
+    <string name="gallery">Gallery</string>
+    <string name="kamera">Camera</string>
+    <string name="mau_cerita_apa">What story do you want to tell?</string>
+    <string name="tambahin_gambar_dong">Please add a picture</string>
+    <string name="email_error">Please fill true email</string>
+    <string name="password_error">Password must min 8 character</string>
+    <string name="empty_image_warning">Please include a picture!</string>
+    <string name="error_connection">Please check your connection</string>
+    <string name="intro_login">Are you ready to share your story?</string>
+    <string name="empty_story_warning">Pleass add story</string>
+    <string name="no_data">No data available</string>
+    <string name="required_data">Email and Password are required</string>
+    <string name="logout">Succesfully logout</string>
+    <string name="todo">TODO</string>
+</resources>
